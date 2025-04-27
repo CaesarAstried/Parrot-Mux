@@ -25,14 +25,12 @@ Setelah repositori berhasil di-clone, masuk ke direktori Parrot-Mux dengan perin
    ```bash
    cd Parrot-Mux
 
-
 3. Beri Izin Eksekusi pada Script
 Berikan izin eksekusi pada script start.sh dengan perintah:
 
    ```bash
    chmod +x start.sh
    
-
 4. Jalankan Script Instalasi
 Setelah memberikan izin eksekusi, jalankan script untuk memulai instalasi dengan perintah:
 
