@@ -13,11 +13,46 @@ Sebelum memulai, pastikan kamu memiliki hal-hal berikut:
 
 ## Langkah Instalasi
 
-1. **Instal Termux**  
-   Jika belum terinstal, kamu bisa mengunduh Termux dari [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) atau [F-Droid](https://f-droid.org/packages/com.termux/).
-
-2. **Clone Repositori Parrot-Mux**  
-   Buka Termux, lalu jalankan perintah berikut untuk meng-clone repositori:
+1. **Clone Repositori Parrot-Mux**  
+   Jalankan perintah berikut di Termux untuk meng-clone repositori:
 
    ```bash
    git clone https://github.com/CaesarAstried/Parrot-Mux/
+
+2. Masuk ke Direktori Parrot-Mux
+Setelah repositori berhasil di-clone, masuk ke direktori Parrot-Mux dengan perintah:
+
+cd Parrot-Mux
+
+
+3. Beri Izin Eksekusi pada Script
+Berikan izin eksekusi pada script start.sh dengan perintah:
+
+chmod +x start.sh
+
+
+4. Jalankan Script Instalasi
+Setelah memberikan izin eksekusi, jalankan script untuk memulai instalasi dengan perintah:
+
+./start.sh
+
+Proses instalasi akan dimulai, dan beberapa dependensi akan diunduh. Ikuti petunjuk di layar untuk menyelesaikan proses instalasi.
+
+
+
+Akses Parrot OS dengan VNC Viewer
+
+Setelah instalasi selesai, kamu bisa mengakses Parrot OS menggunakan VNC Viewer.
+
+1. Instal VNC Viewer
+Instal aplikasi VNC Viewer di perangkat Android kamu dari Google Play Store.
+
+
+2. Jalankan VNC Viewer
+Buka aplikasi VNC Viewer, lalu masukkan alamat IP dan port yang telah disediakan oleh script Parrot-Mux.
+
+
+3. Masukkan Kata Sandi
+Saat diminta, masukkan kata sandi yang telah diatur selama proses instalasi untuk masuk ke desktop Parrot OS.
+
+
