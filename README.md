@@ -9,7 +9,6 @@ Sebelum memulai, pastikan kamu memiliki hal-hal berikut:
 - Perangkat Android yang sudah ter-root (optional, tapi lebih disarankan)
 - **Termux** yang terinstal di perangkatmu
 - **VNC Viewer** untuk mengakses desktop Parrot OS
-- Koneksi internet yang stabil
 
 ## Langkah Instalasi
 
